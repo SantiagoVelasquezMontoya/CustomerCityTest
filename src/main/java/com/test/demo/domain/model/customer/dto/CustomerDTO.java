@@ -19,6 +19,9 @@ public class CustomerDTO {
         this.email = email;
     }
 
+    public CustomerDTO() {
+    }
+
     public CustomerDTO(CustomerDBO customer) {
         this.id = customer.getId();
         this.name = customer.getName();
